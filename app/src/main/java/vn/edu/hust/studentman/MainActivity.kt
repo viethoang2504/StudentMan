@@ -15,26 +15,27 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
 
     val students = mutableListOf(
-      StudentModel("Nguyễn Văn An", "SV001"),
-      StudentModel("Trần Thị Bảo", "SV002"),
+      StudentModel("Trần Ngọc Bảo Anh", "SV001"),
+      StudentModel("Trần Bảo Anh", "SV002"),
       StudentModel("Lê Hoàng Cường", "SV003"),
-      StudentModel("Phạm Thị Dung", "SV004"),
+      StudentModel("Phạm Dung Châu", "SV004"),
       StudentModel("Đỗ Minh Đức", "SV005"),
-      StudentModel("Vũ Thị Hoa", "SV006"),
-      StudentModel("Hoàng Văn Hải", "SV007"),
-      StudentModel("Bùi Thị Hạnh", "SV008"),
-      StudentModel("Đinh Văn Hùng", "SV009"),
-      StudentModel("Nguyễn Thị Linh", "SV010"),
-      StudentModel("Phạm Văn Long", "SV011"),
-      StudentModel("Trần Thị Mai", "SV012"),
-      StudentModel("Lê Thị Ngọc", "SV013"),
-      StudentModel("Vũ Văn Nam", "SV014"),
-      StudentModel("Hoàng Thị Phương", "SV015"),
-      StudentModel("Đỗ Văn Quân", "SV016"),
-      StudentModel("Nguyễn Thị Thu", "SV017"),
-      StudentModel("Trần Văn Tài", "SV018"),
-      StudentModel("Phạm Thị Tuyết", "SV019"),
-      StudentModel("Lê Văn Vũ", "SV020")
+      StudentModel("Vũ Hoa Dung", "SV006"),
+      StudentModel("Hoàng Hải Đăng", "SV007"),
+      StudentModel("Bùi Hồng Hạnh", "SV008"),
+      StudentModel("Đinh Hùng Cường", "SV009"),
+      StudentModel("Nguyễn Linh Đan", "SV010"),
+      StudentModel("Phạm Long Khánh", "SV011"),
+      StudentModel("Trần Mai Trang", "SV012"),
+      StudentModel("Lê Ngọc Hân", "SV013"),
+      StudentModel("Vũ Nam Phong", "SV014"),
+      StudentModel("Hoàng Phương Linh", "SV015"),
+      StudentModel("Đỗ Quân Hùng", "SV016"),
+      StudentModel("Nguyễn Thu Hà", "SV017"),
+      StudentModel("Trần Tài Lộc", "SV018"),
+      StudentModel("Phạm Tuyết Mai", "SV019"),
+      StudentModel("Lê Vũ Hoàng", "SV020")
+
     )
 
     val studentAdapter = StudentAdapter(students)
