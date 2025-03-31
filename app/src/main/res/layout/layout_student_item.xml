@@ -20,19 +20,6 @@
         android:contentDescription="Remove Student"
         app:tint="@android:color/white" />
 
-    <!-- Edit Button -->
-    <ImageView
-        android:id="@+id/image_edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/image_remove"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_edit_24"
-        android:contentDescription="Edit Student"
-        app:tint="@android:color/white" />
-
     <!-- Student Name -->
     <TextView
         android:id="@+id/text_student_name"
@@ -41,8 +28,7 @@
         android:text="StudentName"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/image_edit"
+        app:layout_constraintStart_toEndOf="@+id/image_remove"
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Student ID -->
@@ -53,8 +39,7 @@
         android:text="StudentId"
         android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/image_edit"
+        app:layout_constraintStart_toEndOf="@+id/image_remove"
         app:layout_constraintTop_toBottomOf="@+id/text_student_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
